@@ -3,7 +3,7 @@ import Expenses from "./components/Expenses/Expenses";
 import NewExpense from './components/NewExpense/NewExpense'
 
 const DUMMY_EXPENSES = [
-  { id: 1, title: "chips", amount: 2845.36, date: new Date(2121, 2, 28) },
+  { id: 1, title: "chips", amount: 2845.36, date: new Date(2021, 2, 28) },
   {
     id: 2,
     title: "Car Insurance",
