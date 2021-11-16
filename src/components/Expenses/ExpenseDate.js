@@ -8,9 +8,7 @@ function ExpenseDate(props) {
   const month = props.date.toLocaleString("fr-FR", {
     month: "long",
   });
-  const year = props.date.toLocaleString("fr-FR", {
-    year: "numeric",
-  });
+  const year = props.date.getFullYear();
 
   return (
     <div className="expense-date">
