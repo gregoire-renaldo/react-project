@@ -24,6 +24,7 @@ const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   return (
     <div>
+
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
